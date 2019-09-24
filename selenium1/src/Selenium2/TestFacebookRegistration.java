@@ -13,6 +13,8 @@ public class TestFacebookRegistration {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\training\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	//jkhjgjgu
+		//ufgyfy
+		
 		WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
 		driver.get("https://accounts.google.com/signin");
