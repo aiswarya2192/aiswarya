@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" thread-count="2" parallel="methods">
+  <test verbose="2" name="Default test">
+  <parameter name="sUsername" value="aiswaryab"/>
+  <parameter name="sPassword" value="Araviya@"/>
+    <classes>
+      <class name="Selenium3.FirstTestNgFile"/>
+      <class name="Selenium3.FirstTestNgFile2"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            
